@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "shimira"
-version = "0.0.0a1"
+version = "0.0.0a2"
 dependencies = [
     "praat-parselmouth@git+https://github.com/shoma-knot/Parselmouth.git",
     "pyworld@git+https://github.com/shoma-knot/Python-Wrapper-for-World-Vocoder.git",
