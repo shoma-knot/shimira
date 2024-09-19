@@ -3,6 +3,10 @@ from sentence_transformers import SentenceTransformer
 from typing import Optional
 
 
+def get_default_sentence_transformer() -> SentenceTransformer:
+    return SentenceTransformer(model_name_or_path="pkshatech/GLuCoSE-base-ja")
+
+
 def get_sentence_embedding(
     sentence: str,
     model: Optional[SentenceTransformer] = None,
