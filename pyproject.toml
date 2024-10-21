@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "shimira"
-version = "2024.9.20a1"
+version = "2024.10.21a1"
 dependencies = [
     "praat-parselmouth@git+https://github.com/shoma-knot/Parselmouth.git",
     "pyworld@git+https://github.com/shoma-knot/Python-Wrapper-for-World-Vocoder.git",
@@ -12,5 +12,5 @@ dependencies = [
     "matplotlib",
     "scikit-learn",
     "resemblyzer",
-    "numpy"
+    "numpy",
 ]
