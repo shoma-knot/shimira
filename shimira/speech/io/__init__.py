@@ -1,6 +1,6 @@
 from pathlib import Path
 from typing import Optional
-from macha.speech.util import Audio
+from shimira.speech.util import Audio
 import librosa as lr
 import soundfile as sf
 
