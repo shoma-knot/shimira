@@ -1,2 +1,2 @@
-import MOS
-import SpeakerSimilarity
+from . import MOS
+from . import SpeakerSimilarity

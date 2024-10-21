@@ -8,7 +8,7 @@ import enum
 class MOSPredictModel(enum.Enum):
     UTMOS = enum.auto()
 
-    def __init__(self):
+    def __init__(self, *args):
         self.__model = None
 
     def predict(self, *args, **kwargs):
